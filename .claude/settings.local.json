@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.heronfinance.com)"
+      "WebFetch(domain:www.heronfinance.com)",
+      "WebFetch(domain:bbystrategies.com)",
+      "Bash(find /Users/jasonkerkvliet/projects/bby-investments-website -not -path ./.git/* -not -path */node_modules/* -print)",
+      "Bash(wc -l /Users/jasonkerkvliet/projects/bby-investments-website/*.html /Users/jasonkerkvliet/projects/bby-investments-website/css/*.css)",
+      "Bash(curl -s https://bbystrategies.com/)",
+      "Bash(curl -s https://bbystrategies.com/about.html)",
+      "Bash(curl -s https://bbystrategies.com/contact.html)",
+      "Bash(curl -s https://bbystrategies.com/privacy.html)",
+      "Bash(curl -s https://bbystrategies.com/css/style.css)"
     ]
   }
 }
